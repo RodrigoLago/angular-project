@@ -1,0 +1,8 @@
+.card-container {
+    font-family: Montserrat, sans-serif;
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 0.3fr));
+    grid-gap: 2rem;
+    justify-content: center;
+  }
