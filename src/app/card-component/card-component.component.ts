@@ -9,10 +9,12 @@ import { Component, Input, OnInit } from '@angular/core';
 export class CardComponentComponent implements OnInit{
   @Input()title:String;
   @Input()description:String;
+  @Input()card_image:String;
  
   constructor(){
     this.title = "Titulo generico";
     this.description = "Descripcion generica"
+    this.card_image = "Imagen generica"
    }
    ngOnInit(): void {
      
