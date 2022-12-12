@@ -1,8 +1,12 @@
 <div class="card-container">
+    <!--
     <div *ngFor="let card of ArrayCards">
-        <app-card-component title="{{card.title}}" description="{{card.description}}"></app-card-component>
+        <app-card-component title="{{card.title}}" description="{{card.description}}"
+            writer="{{card.author}}"></app-card-component>
     </div>
-    
-    <app-card-component *ngFor="let card of ArrayCards" title="{{card.title}}" description="{{card.description}}"></app-card-component>
+    -->
+
+    <app-card-component *ngFor="let card of ArrayCards" title="{{card.title}}" description="{{card.description}}"
+        writer="{{card.author}}"></app-card-component>
 
 </div>
