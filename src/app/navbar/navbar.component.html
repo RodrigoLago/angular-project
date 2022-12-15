@@ -24,3 +24,15 @@
         </ul>
     </div>
 </nav>
+
+<!--Ejemplo de event binding-->
+<div class="container">
+    <h3>{{texto}}</h3><!--Property Binding-->
+    <button class="btn btn-primary" (click)="cambiarTexto()">Hacer click</button> <!--Event Binding-->
+</div>
+
+<!--Ejemplo de two way binding-->
+<div class="container">
+    <input type="text" name="search" placeholder="Escriba algo aqui..." [(ngModel)]="texto2" />
+    <h3>{{texto2}}</h3><!--Property Binding-->
+</div>
